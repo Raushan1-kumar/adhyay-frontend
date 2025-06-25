@@ -51,6 +51,7 @@ function Header() {
               <Link to="/courses" className="hover:text-orange-300 transition" onClick={() => setMobileMenuOpen(false)}>Courses</Link>
               <Link to="/about" className="hover:text-orange-300 transition" onClick={() => setMobileMenuOpen(false)}>About</Link>
               <Link to="/contact" className="hover:text-orange-300 transition" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
+               <Link to="/studentauth" className="hover:text-orange-300 transition">Student Portal</Link>
               <Link to="/contact" className="bg-orange-500 text-white hover:bg-orange-600 px-4 py-2 rounded-md transition text-center">
                 Enroll Now
               </Link>
