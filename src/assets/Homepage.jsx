@@ -175,7 +175,7 @@ const HomePage = () => {
                     <p className="font-semibold">Batch Size: <span className="font-normal">20 Students</span></p>
                   </div>
                   <Link 
-                    to={`/courses/class-${grade}`} 
+                    to={`/courses/${grade}`} 
                     className="block w-full bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded transition text-center"
                   >
                     View Details

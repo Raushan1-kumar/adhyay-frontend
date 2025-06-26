@@ -7,6 +7,7 @@ import FAQDemoPage from './assets/Demo';
 import ContactPage from './assets/ContactPage';
 import StudentAuth from './assets/StudentAuth';
 import StudentDashboard from './assets/StudentDashboard'
+import ClassCoursePage from './assets/CourseForClass';
 // import AboutPage from './pages/About';
 // import CoursesPage from './pages/Courses';
 // import ContactPage from './pages/Contact';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/studentauth" element={<StudentAuth />} />
         <Route path="/dashboard/:id" element={<StudentDashboard />} />
+        <Route path="/courses/:classId" element={<ClassCoursePage />} />
       </Routes>
     </Router>
   );
